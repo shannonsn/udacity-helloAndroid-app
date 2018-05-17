@@ -1,5 +1,6 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
@@ -17,7 +18,7 @@
         android:padding="20dp"
         android:text="Udacity!"
         android:textSize="36sp"
-        android:textColor="#ffff00"
+        android:textColor="#1565C0"
         android:fontFamily="sans-serif-light"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
@@ -27,7 +28,7 @@
         android:id="@+id/number"
         android:text="650-555-5555"
         android:layout_below="@id/Udacity"
-        android:textColor="#ffff00"
+        android:textColor="#1565C0"
         android:textSize="30sp"
         android:fontFamily="sans-serif-light"
         android:layout_width="wrap_content"
@@ -37,10 +38,10 @@
 
     <TextView
         android:layout_below="@id/number"
-
+        android:id="@+id/link"
+        android:textColor="#1565C0"
         android:padding="20dp"
         android:text="www.udacity.com"
-        android:textColor="#ffff00"
         android:textSize="30sp"
         android:fontFamily="sans-serif-light"
         android:layout_width="wrap_content"
@@ -50,9 +51,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="2465 Latham St.mountain"
-        android:textColor="#ffff00"
+        android:textColor="#1565C0"
         android:textSize="30dp"
         android:layout_margin="5dp"
-        android:layout_alignParentBottom="true" pBottom="true"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@id/link"
         />
 </RelativeLayout>
